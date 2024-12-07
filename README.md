@@ -57,6 +57,6 @@ streamlit run app.py
 ```
 
 ## Usage
-Input URLs: Provide up to three URLs to extract data from. The tool will scrape the content from these URLs and prepare it for query answering.
-Ask a Query: Enter any question related to the content from the provided URLs.
-Get Answer: The application will process the query, retrieve relevant information, and display the answer along with source URL references.
+#### Input URLs: Provide up to three URLs to extract data from. The tool will scrape the content from these URLs and prepare it for query answering.
+#### Ask a Query: Enter any question related to the content from the provided URLs.
+#### Get Answer: The application will process the query, retrieve relevant information, and display the answer along with source URL references.
