@@ -1,0 +1,5 @@
+streamlit==1.18.0
+langchain==0.0.179
+langchain-community==0.0.3
+dill==0.3.6
+faiss-cpu==1.7.4
