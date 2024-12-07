@@ -42,17 +42,19 @@ streamlit run main.py
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 ### Step 3: Step 3: Set up the API keys
 To interact with the LLMs and other services, you need to provide API keys. Make a '.env' file in the parent directory and set the following environment variables in:
 ```bash
 OPENAI_API_KEY='your-openai-api-key'
+```
 
 ### Step 4: Step 4: Run the app
 Start the Streamlit application:
 ```bash
 streamlit run app.py
+```
 
 ## Usage
 Input URLs: Provide up to three URLs to extract data from. The tool will scrape the content from these URLs and prepare it for query answering.
