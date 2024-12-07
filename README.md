@@ -36,6 +36,7 @@ Before running the application, make sure you have the following installed:
 git clone https://github.com/your-username/LLM-Powered-URL-Intelligence-Tool.git
 cd LLM-Powered-URL-Intelligence-Tool
 streamlit run main.py
+```
 
 ### Step 2: Install dependencies
 
