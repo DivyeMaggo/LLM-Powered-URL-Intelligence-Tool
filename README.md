@@ -36,3 +36,24 @@ Before running the application, make sure you have the following installed:
 git clone https://github.com/your-username/LLM-Powered-URL-Intelligence-Tool.git
 cd LLM-Powered-URL-Intelligence-Tool
 streamlit run main.py
+
+### Step 2: Install dependencies
+
+```bash
+pip install -r requirements.txt
+
+
+### Step 3: Step 3: Set up the API keys
+To interact with the LLMs and other services, you need to provide API keys. Make a '.env' file in the parent directory and set the following environment variables in:
+```bash
+OPENAI_API_KEY='your-openai-api-key'
+
+### Step 4: Step 4: Run the app
+Start the Streamlit application:
+```bash
+streamlit run app.py
+
+## Usage
+Input URLs: Provide up to three URLs to extract data from. The tool will scrape the content from these URLs and prepare it for query answering.
+Ask a Query: Enter any question related to the content from the provided URLs.
+Get Answer: The application will process the query, retrieve relevant information, and display the answer along with source URL references.
